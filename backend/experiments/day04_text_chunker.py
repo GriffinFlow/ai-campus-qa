@@ -41,7 +41,7 @@ with open(r"E:\GitProjects\ai-campus-qa\backend\experiments\chunks_preview.txt",
             f"位置({chunk['start']}-{chunk['end']}) "
             f"内容: {chunk['text']}\n"
         )
-        writer.write(line)   
+            writer.write(line)   
 
     #这个逻辑我写不出来
 
